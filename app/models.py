@@ -20,6 +20,7 @@ class EmbeddingResponse(BaseModel):
     Pydantic-модель для тела ответа с эмбеддингами.
 
     Определяет структуру ответа, который содержит ключ 'embeddings'
-    со списком векторов (списков float).
+    со списком векторов (списков float). Модель FRIDA генерирует
+    векторы размерности 512.
     """
     embeddings: List[List[float]]
