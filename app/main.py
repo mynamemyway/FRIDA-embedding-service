@@ -15,9 +15,9 @@ async def lifespan(app: FastAPI):
     Менеджер жизненного цикла FastAPI.
     Выполняет загрузку модели при старте приложения.
     """
-    print("INFO:     Загрузка модели intfloat/multilingual-e5-large...")
+    print("INFO:     Загрузка модели ai-forever/FRIDA...")
     # Загружаем модель и сохраняем ее в состоянии приложения
-    app.state.model = SentenceTransformer("intfloat/multilingual-e5-large")
+    app.state.model = SentenceTransformer("ai-forever/FRIDA")
     print("INFO:     Модель успешно загружена.")
     yield
     # Код для очистки ресурсов при остановке (если необходимо)
