@@ -1,0 +1,24 @@
+# Ignore development documentation folder
+4dev/
+
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+
+# macOS specific
+.DS_Store
+
+# Environments
+.env
+.venv
+env/
+venv/
+
+# Tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# IDE / Editor specific
+.vscode/
+.idea/
