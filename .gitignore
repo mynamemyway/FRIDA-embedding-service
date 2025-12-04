@@ -1,6 +1,7 @@
 # Ignore development documentation folder
 4dev/
 .amazonq
+temp.patch
 
 # Byte-compiled / optimized files
 __pycache__/
